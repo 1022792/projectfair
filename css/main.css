@@ -1,2 +1,2 @@
-
+@font-face{font-family:ubuntu;src:url("../fonts/Ubuntu-C.ttf")}.about{background-color:#4B8813;position:relative;color:#fff;text-align:center;font-family:ubuntu;padding:30px 0;transform:rotate(2deg);width:120%;top:-13.5%;left:-13.5%}.about__paragraph{width:80%;padding:0 10%}body{overflow:hidden;margin:0}.about__heading2{font-weight:bold}.about__information,.about__heading2{margin-left:5%;transform:rotate(-2deg)}
 /*# sourceMappingURL=main.css.map */
