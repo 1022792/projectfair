@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,WAAW,CACT,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,KAAK,CACb,gBAAgB,CCHN,qBAAqB,CDK7B,iBAAK,CACH,UAAU,CAAE,MAAM,CAClB,QAAQ,CAAE,MAAM,CAEhB,2BAAS,CACP,OAAO,CAAE,MAAM,CACf,OAAO,CAAE,SAAS,CAElB,uCAAW,CACT,eAAe,CAAE,IAAI,CACrB,SAAS,CAAE,IAAI,CACf,KAAK,CAAE,KAAK",
-"sources": ["../sass/partials/_nav.scss","../sass/modules/_var.scss"],
-"names": [],
-"file": "main.css"
-}
