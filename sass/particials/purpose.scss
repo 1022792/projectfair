@@ -1,20 +1,39 @@
 .section {
   padding: 2em;
 }
-.purpose {
-  .purpose__title {
-    color: #000005;
-  }
-  .purpose__image {
-    border-right: 30px solid #ffffff;
-    border-bottom: 40px solid #ffffff;
 
-  }
-  .purpose__text {
-    height: 145px;
-    width: 500px;
-    padding: 3em;
-    float: right;
-    border: 3px solid;
-  }
+.purpose {
+  position: relative;
+}
+
+.purpose__block {
+  position: absolute;
+  top: 150%;
+  left: 33%;
+  background-color: #fff;
+  z-index: 1;
+  font-family: unbuntu;
+}
+
+.purpose__title {
+  position: absolute;
+  color: #000005;
+  background-color: #fff;
+  width: 40%;
+  margin: 0 30%;
+  text-align: center;
+}
+
+.purpose__image {
+  position: absolute;
+  border-right: 30px solid #ffffff;
+  border-bottom: 40px solid #ffffff;
+  z-index: 2;
+}
+
+.purpose__text {
+  height: 145px;
+  width: 500px;
+  padding: 5em;
+  border: 3px solid;
 }
