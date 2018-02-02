@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAW,CACT,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,KAAK,CACb,gBAAgB,CCHN,qBAAqB",
+"sources": ["../sass/partials/_nav.scss","../sass/modules/_var.scss"],
+"names": [],
+"file": "main.css"
+}
