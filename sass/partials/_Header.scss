@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+}
+
+.intro {
+
+  .intro__container {
+    background-color: aqua;
+    width: 100%;
+    height: 700px;
+    background: url("../img/water.jpg");
+    transform: skewY(-1deg);
+
+    .intro__text {
+      padding: 300px 0 0 100px;
+      width: 45%;
+      text-align: center;
+      font-family: Arial;
+      font-size: 27px;
+      color: #ffffff;
+    }
+  }
+
+}
