@@ -17,3 +17,8 @@
 @import "sass/partials/services";
 @import "sass/partials/footer";
 //@import "sass/partials/sectionresources";
+html{
+  overflow: auto;
+  height: 2000px;
+}
+@import "sass/partials/expertisesection";

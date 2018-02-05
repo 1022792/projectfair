@@ -11,6 +11,18 @@ function more() {
         blocks[z].style="";
     }
 }
+
+document.addEventListener('scroll', animation);
+
+function animation() {
+    document.getElementById('animationStyles').innerHTML = '';
+    document.getElementById('animationStyles').innerHTML = "@keyframes slideleft{ from { margin-left: 1500px; } to { margin-left: 400px; } }";
+    document.getElementById('animationStyles').innerHTML += "@keyframes slideright{ from { margin-left:-1500px; } to { margin-left:900px; } }";
+    console.log("You scrolled");
+}
+
+
+
 'use strict';
 function verify() {
     var contactName = document.getElementById('contactName').value;
