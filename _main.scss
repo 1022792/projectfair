@@ -1,8 +1,3 @@
-html{
-  overflow: auto;
-  height: 2000px;
-}
-@import "sass/partials/expertisesection";
 //normalize
 @import "sass/vendor/_normalize.scss";
 
@@ -14,10 +9,8 @@ html{
 @import "sass/modules/_var.scss";
 
 //partials
-@import "sass/partials/nav.scss";
+@import "sass/partials/_nav.scss";
 @import "sass/partials/purpose";
 @import "sass/partials/_Header.scss";
-@import "sass/partials/contactform";
-@import "sass/partials/about";
-@import "sass/partials/services";
 @import "sass/partials/footer";
+@import "sass/partials/contactform";
