@@ -7,7 +7,7 @@ module.exports = function (grunt) {
                     style: 'compressed'
                 },
                 files: {
-                    'css/main.css': 'main.scss'
+                    'css/main.css': '_main.scss'
                 }
             }
         },
@@ -18,12 +18,35 @@ module.exports = function (grunt) {
                 options: {
                     spawn: false
                 }
+            },
+            js: {
+                files: ['js/*.js'],
+                tasks: ['concat','uglify'],
+                options: {
+                    spawn: false
+                }
+            }
+        },
+        concat: {
+            default: {
+                files: {
+                    'main.js': 'js/*.js'
+                }
+            }
+        },
+        uglify: {
+            my_target: {
+                files: {
+                    'main.min.js': 'main.js'
+                }
             }
         }
     });
 
-    grunt.registerTask('default', ['sass']);
+    grunt.registerTask('default', ['sass', 'uglify']);
 
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-concat');
 };

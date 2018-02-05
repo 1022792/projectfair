@@ -1,0 +1,13 @@
+//normalize
+@import "sass/vendor/_normalize.scss";
+
+//modules
+@import "sass/base/typography";
+@import "sass/modules/_var.scss";
+
+//partials
+@import "sass/_about.scss";
+@import "sass/partials/_nav.scss";
+@import "sass/partials/purpose";
+@import "sass/partials/_Header.scss";
+@import "sass/partials/contactform";
