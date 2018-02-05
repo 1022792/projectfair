@@ -1,7 +1,8 @@
 //normalize
 @import "sass/vendor/_normalize.scss";
 
-@import "sass/_about.scss";
+//base
+@import "sass/base/scrollfix";
 @import "sass/base/typography";
 
 //modules
@@ -12,3 +13,5 @@
 @import "sass/partials/purpose";
 @import "sass/partials/_Header.scss";
 @import "sass/partials/contactform";
+@import "sass/partials/about";
+@import "sass/partials/sectionresources";
