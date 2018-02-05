@@ -6,8 +6,13 @@ html{
 //normalize
 @import "sass/vendor/_normalize.scss";
 
+@import "sass/_about.scss";
+@import "sass/base/typography";
+
 //modules
 @import "sass/modules/_var.scss";
 
-//partails
+//partials
 @import "sass/partials/_nav.scss";
+@import "sass/partials/purpose";
+@import "sass/partials/_Header.scss";

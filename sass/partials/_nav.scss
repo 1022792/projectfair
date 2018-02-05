@@ -2,7 +2,9 @@
   font-family: ubuntu;
   src: url("../fonts/Ubuntu-C.ttf");
 }
-
+*{
+  margin: 0;
+}
 .navigation{
   width: 100%;
   height: 100px;

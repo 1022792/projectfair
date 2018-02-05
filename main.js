@@ -1,15 +1,11 @@
 var blocks = document.getElementsByClassName('resources__content');
-    if (blocks.length >= 6){
+function more() {
+     if (blocks.length >= 6){
         for(var x = 6; x < blocks.length; x++){
             blocks[x].style="display:none;";
         }
     }
-
-function more() {
-    for (var z = 6; z < blocks.length; z++){
-        blocks[z].style="";
-    }
-}
+  }
 
 document.addEventListener('scroll', animation);
 
