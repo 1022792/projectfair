@@ -1,0 +1,37 @@
+.expertise {
+  background-image: url("../img/background.jpg");
+  padding: 5em;
+}
+.expertise__heading {
+  text-align: center;
+  color: #000005;
+}
+.expertise__title {
+  padding: 1em;
+}
+.expertise__title--right {
+  margin-left: 3em;
+}
+.expertise__text--right {
+  margin-left: 3em;
+}
+.expertise__title--left {
+  margin-right: 3em;
+}
+.expertise__text--left {
+  margin-right: 3em;
+}
+.expertise__block {
+  width: 60%;
+  height: 30%;
+  padding: 2em;
+  background-color: #f3f3f3d6;
+  margin: 2em;
+}
+.expertise__block--left {
+  clip-path: polygon(0 0, 100% 0, 94% 100%, 0 100%);
+  margin-left: 3em;
+}
+.expertise__block--right {
+  clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
+}
