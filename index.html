@@ -2,39 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-    <title>Title</title>
+    <title>project fair</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <nav class="navigation"></nav>
 
-    <header class="header intro">
-        <div class="intro__container">
-            <p class="intro__text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            </p>
-        </div>
-    </header>
+    <nav class="navigation">
+        <a href=""><img class="navigation__img" src="img/apple_logo.png" alt=""></a>
+        <ul class="menu">
+            <li class="menu__li"><a class="menu__link" href="#">contact</a></li>
+            <li class="menu__li"><a class="menu__link" href="#">links/resources</a></li>
+            <li class="menu__li"><a class="menu__link" href="#">services</a></li>
+            <li class="menu__li"><a class="menu__link" href="#">expertise</a></li>
+            <li class="menu__li"><a class="menu__link" href="#">about</a></li>
+        </ul>
+    </nav>
 
-    <section class="section purpose"></section>
 
-    <section class="section about">
-        <article class="about__information"></article>
-    </section>
-
-    <section class="section expertise"></section>
-
-    <section class="section services"></section>
-
-    <section class="section resources"></section>
-
-    <section class="section contact">
-        <form class="contact__form">
-
-        </form>
-    </section>
-    <footer class="footer"></footer>
+</header>
+<section class="section purpose"></section>
+<section class="section about">
+    <article class="about__information"></article>
+</section>
+<section class="section expertise"></section>
+<section class="section services"></section>
+<section class="section resources">
+    <div class="resources__content"></div>
+    <div class="resources__content"></div>
+    <div class="resources__content"></div>
+    <div class="resources__content"></div>
+    <div class="resources__content"></div>
+    <div class="resources__content"></div>
+    <div class="resources__content"></div>
+    <div class="resources__content"></div>
+    <div class="resources__content"></div>
+</section>
+<section class="section contact">
+    <h2 class="contact__heading2">GET IN TOUCH WITH US!</h2>
+    <form class="contact__form">
+        <input class="contact__input" id="contactName" type="text" placeholder="Type your name here">
+        <input class="contact__input" id="contactEmail" type="email" placeholder="Type your email addresss here">
+        <textarea class="contact__textarea" placeholder="What is it you want to have contact about?"></textarea>
+        <button class="contact__submit" onclick="verify()" id="submitContactform">Send</button>
+    </form>
+</section>
+<footer class="footer"></footer>
+<script src="main.min.js"></script>
 </body>
 </html>
