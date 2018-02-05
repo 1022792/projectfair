@@ -1,11 +1,11 @@
 @import "sass/base/typography";
-@import "sass/particials/purpose";
-@import "sass/partials/_Header.scss";
 //normalize
 @import "sass/vendor/_normalize.scss";
 
 //modules
 @import "sass/modules/_var.scss";
 
-//partails
+//partials
 @import "sass/partials/_nav.scss";
+@import "sass/partials/purpose";
+@import "sass/partials/_Header.scss";
