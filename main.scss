@@ -3,3 +3,11 @@ html{
   height: 2000px;
 }
 @import "sass/partials/expertisesection";
+//normalize
+@import "sass/vendor/_normalize.scss";
+
+//modules
+@import "sass/modules/_var.scss";
+
+//partails
+@import "sass/partials/_nav.scss";
