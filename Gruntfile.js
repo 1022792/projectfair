@@ -13,7 +13,7 @@ module.exports = function (grunt) {
         },
         watch: {
             scss: {
-                files: ['**/*.scss'],
+                files: ['**/**/*.scss'],
                 tasks: ['sass'],
                 options: {
                     spawn: false
