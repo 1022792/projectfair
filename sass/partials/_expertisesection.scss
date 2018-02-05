@@ -1,0 +1,13 @@
+.expertise{
+  &__content{
+    animation-duration: 5s;
+  }
+  &__slideleft{
+    animation-name: slideleft;
+    margin: 0 0 0 400px;
+  }
+  &__slideright{
+    animation-name: slideright;
+    margin: 0 0 0 900px;
+  }
+}
