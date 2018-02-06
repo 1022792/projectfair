@@ -7,7 +7,7 @@ module.exports = function (grunt) {
                     style: 'compressed'
                 },
                 files: {
-                    'css/main.css': 'main.scss'
+                    'css/main.css': ['main.scss']
                 }
             }
         },
@@ -43,7 +43,7 @@ module.exports = function (grunt) {
         }
     });
 
-    grunt.registerTask('default', ['sass', 'uglify']);
+    grunt.registerTask('default', ['sass', 'uglify', 'watch']);
 
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-sass');
