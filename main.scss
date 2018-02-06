@@ -1,0 +1,21 @@
+//normalize
+@import "sass/vendor/_normalize.scss";
+
+//base
+@import "sass/base/scrollfix";
+@import "sass/base/typography";
+
+//modules
+@import "sass/modules/_var.scss";
+
+//partials
+@import "sass/partials/nav.scss";
+@import "sass/partials/purpose";
+@import "sass/partials/Header.scss";
+@import "sass/partials/contactform";
+@import "sass/partials/about";
+@import "sass/partials/footer";
+@import "sass/partials/services";
+@import "sass/partials/resources";
+@import "sass/partials/expertise";
+@import "sass/partials/expertisesection";
