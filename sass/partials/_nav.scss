@@ -8,10 +8,11 @@
 .navigation{
   width: 100%;
   height: 100px;
+  position: absolute;
+  z-index: 99;
   background-color: $navcolor;
   margin: -22px 0 0 0;
-  position: fixed;
-  transform: skewY(-1deg);
+  transform: skewY(-0.8deg);
 
   .navigation__img{
     height: 100px;
@@ -25,7 +26,6 @@
   transform: skewY(1deg);
   padding: 0 0 20px 0;
   margin: -60px 200px 0 0;
-  z-index: auto;
 
   .menu__li{
     display: inline;
@@ -36,6 +36,11 @@
       text-decoration: none;
       font-size: 20px;
       color: black;
+      &:hover{
+        color: #4b8813;
+        text-decoration: underline;
+      }
     }
+
   }
 }
