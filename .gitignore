@@ -1,6 +1,10 @@
 node_modules/
 .idea
 package-lock.json
+<<<<<<< HEAD
+.sass-cache/*
+css/
+=======
 .sass-cache
 css/
 .sass-cache/617c209460bd1eb38244a0e7c2da414acb9e213a/_nav.scssc
@@ -10,3 +14,5 @@ css/main.css.map
 main.scss
 .sass-cache/617c209460bd1eb38244a0e7c2da414acb9e213a/_nav.scssc
 css/main.css
+>>>>>>> origin/fl-4
+package-lock.json
