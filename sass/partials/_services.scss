@@ -1,0 +1,32 @@
+body {
+  background-color: #F3F3F3;
+}
+.services {
+  margin-left: 8em;
+}
+.heading2 {
+  text-align: center;
+  font-size: 27px;
+  color: #000005;
+}
+
+.services__box {
+  width: 63%;
+  text-align: left;
+  margin: 30px auto;
+  font-size: 20px;
+
+
+  .box__title {
+    color: #4C8D17;
+    font-weight: bold;
+    padding-bottom: 1em;
+  }
+}
+
+.services__img {
+  float: left;
+  margin-top: 3em;
+  margin-left: 8em;
+  padding-right: 2em;
+}
