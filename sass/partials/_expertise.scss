@@ -11,9 +11,11 @@
 }
 .expertise__title--right {
   margin-left: 3em;
+  text-align: right;
 }
 .expertise__text--right {
   margin-left: 3em;
+  text-align: right;
 }
 .expertise__title--left {
   margin-right: 3em;
@@ -30,11 +32,10 @@
 }
 .expertise__block--left {
   clip-path: polygon(0 0, 100% 0, 94% 100%, 0 100%);
-  margin: auto;
 }
 .expertise__block--right {
-  clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
-  margin: auto;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 6% 100%);
   margin-top: 2em;
   margin-bottom: 2em;
+  margin-left: 30em;
 }
