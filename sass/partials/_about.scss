@@ -2,13 +2,14 @@
   background-color: #4B8813;
   color: #fff;
   text-align: center;
-  padding: 3em;
+  padding: 8em 3em;
   clip-path: polygon(0 0, 100% 8%, 100% 90%, 0 100%);
 
 }
 .about__paragraph {
   width: 80%;
   padding: 0 10%;
+  font-size:20px;
   color: #ffffff;
 }
 
@@ -19,6 +20,8 @@ body{
 
 .about__heading2{
   font-weight: bold;
+  margin: 0 0 20px 0;
+  font-size:40px;
 }
 
 .about__information, .about__heading2 {
