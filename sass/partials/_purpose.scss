@@ -24,32 +24,32 @@
 }
 
 .purpose {
-  margin: 0 6%;
-  position: relative;
+  margin: 6%;
+  top: 20px;
 }
 
 .purpose__block {
-  position: absolute;
-  top: 150%;
-  left: 38%;
+  display: inline-block;
   background-color: #fff;
   z-index: 1;
   font-family: unbuntu;
 }
 
 .purpose__title {
-  position: absolute;
+  position: relative;
+  top: 25px;
   color: #000005;
   background-color: #fff;
   width: 60%;
   margin: 0 20%;
   text-align: center;
   font-size: 40px;
-  top: -10px;
 }
 
 .purpose__image {
-  position: absolute;
+  position: relative;
+  top: 60px;
+  left: 70px;
   border-right: 30px solid #ffffff;
   border-bottom: 40px solid #ffffff;
   z-index: 2;
