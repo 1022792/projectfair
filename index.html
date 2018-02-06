@@ -6,16 +6,15 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
     <header class="header intro"></header>
     <nav class="navigation">
-        <a href=""><img class="navigation__img" src="img/apple_logo.png" alt=""></a>
+        <a href=""><img class="navigation__img" id="top" src="img/apple_logo.png" alt=""></a>
         <ul class="menu">
-            <li class="menu__li"><a class="menu__link" href="#">contact</a></li>
-            <li class="menu__li"><a class="menu__link" href="#">links/resources</a></li>
-            <li class="menu__li"><a class="menu__link" href="#">services</a></li>
-            <li class="menu__li"><a class="menu__link" href="#">expertise</a></li>
-            <li class="menu__li"><a class="menu__link" href="#">about</a></li>
+            <li class="menu__li"><a class="menu__link" data-test="contact" href="#contact">contact</a></li>
+            <li class="menu__li"><a class="menu__link" data-test="resources" href="#resources">links/resources</a></li>
+            <li class="menu__li"><a class="menu__link" data-test="services" href="#services">services</a></li>
+            <li class="menu__li"><a class="menu__link" data-test="expertises" href="#expertise">expertise</a></li>
+            <li class="menu__li"><a class="menu__link" data-test="about" href="#about">about</a></li>
         </ul>
     </nav>
 
@@ -39,7 +38,7 @@
             Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
     </div>
 </section>
-<section class="section about">
+<section class="section about" id="about">
     <h2 class="about__heading2">WHAT WE DO</h2>
     <article class="about__information">
         <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue
@@ -52,8 +51,8 @@
         </p>
     </article>
 </section>
-<section class="section expertise"></section>
-<section class="section services">
+<section class="section expertise" id="expertise"></section>
+<section class="section services" id="services">
 
     <h2 class="heading2">Consulting Services</h2>
 
@@ -92,7 +91,7 @@
 
 </section>
 
-<section class="section resources">
+<section class="section resources" id="resources">
     <div class="resources__block">
         <h2 class="heading2">LINKS AND RESOURCES</h2>
         <div class="resources__intro">
@@ -137,7 +136,7 @@
     </div>
 </section>
 
-<section class="section contact">
+<section class="section contact" id="contact">
     <h2 class="contact__heading2">GET IN TOUCH WITH US!</h2>
     <form class="contact__form">
         <input class="contact__input" id="contactName" type="text" placeholder="Type your name here">
@@ -166,5 +165,6 @@
 </footer>
 <script src="main.min.js"></script>
 <script src="js/resources.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/navigation.js"></script>
 </body>
 </html>
