@@ -11,6 +11,43 @@ function more() {
         blocks[z].style="";
     }
 }
+var deb = false;
+
+document.addEventListener('scroll', handle);
+
+function handle() {
+
+    var scrollHeight = window.scrollY;
+    var expertiseHeight = document.querySelector('.expertise').scrollHeight;
+    var servicesHeight = document.querySelector('.services').scrollHeight;
+
+    if (scrollHeight > expertiseHeight) {
+        if (deb === false) {
+            deb = true;
+            console.log("BIEM");
+            animation();
+        } else console.log("is false");
+    }
+}
+
+function animation() {
+    var blocksleft = document.querySelectorAll('.expertise__block--left');
+    var blocksright = document.querySelectorAll('.expertise__block--right');
+    var blockscontent = document.querySelectorAll('.expertise__block');
+
+    for (var i = 0; i < blockscontent.length; i++) {
+        blockscontent[i].style.animationDuration = "5s";
+    }
+    for (var k = 0; k < blocksleft.length; k++) {
+        blocksleft[k].style.animationName = "slideleft";
+    }
+    for (var l = 0; l < blocksright.length; l++) {
+        blocksright[l].style.animationName = "slideright";
+    }
+}
+
+
+
 window.onload=function(){
     document.getElementById("button").addEventListener("click", showBoxes);
 };
@@ -27,7 +64,7 @@ function showBoxes() {
         button.innerHTML = "Show less"
     }
     else {
-        for (var i = 0; i < hiddenBoxes.length; i++){
+        for (i = 0; i < hiddenBoxes.length; i++){
             hiddenBoxes[i].style.display = "none";
         }
         button.innerHTML = "Show more"
