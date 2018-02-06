@@ -1,8 +1,10 @@
 body {
   background-color: #F3F3F3;
+  font-family: 'unbuntu';
 }
 .services {
   margin-left: 8em;
+
 }
 .heading2 {
   text-align: center;
@@ -13,7 +15,7 @@ body {
 .services__box {
   width: 63%;
   text-align: left;
-  margin: 30px auto;
+  margin: 30px 300px;
   font-size: 20px;
 
 
@@ -21,12 +23,20 @@ body {
     color: #4C8D17;
     font-weight: bold;
     padding-bottom: 1em;
+    position: relative;
+    right: 20px;
+  }
+  .box__text{
+    position: relative;
+    right: 20px;
   }
 }
 
 .services__img {
   float: left;
-  margin-top: 3em;
-  margin-left: 8em;
+  margin: 20px 0 0 6em;
   padding-right: 2em;
+}
+.bussines__img{
+  margin: 20px 0 0 120px;
 }
