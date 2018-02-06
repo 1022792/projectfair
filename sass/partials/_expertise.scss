@@ -30,8 +30,11 @@
 }
 .expertise__block--left {
   clip-path: polygon(0 0, 100% 0, 94% 100%, 0 100%);
-  margin-left: 3em;
+  margin: auto;
 }
 .expertise__block--right {
   clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
