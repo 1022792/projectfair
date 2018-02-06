@@ -9,6 +9,8 @@
     width: 100%;
     height: 700px;
     background: url("../img/water.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     clip-path: polygon(0 0, 100% 0, 100% 94%, 0 100%);
 
     .intro__text {
