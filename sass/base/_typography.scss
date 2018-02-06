@@ -1,0 +1,32 @@
+@font-face {
+  font-family: unbuntu;
+  src: url("../fonts/Ubuntu-C.ttf");
+}
+@font-face {
+  font-family: unbuntu-bold;
+  src: url("../fonts/Ubuntu-B.ttf");
+}
+@font-face {
+  font-family: unbuntu-medium;
+  src: url("../fonts/Ubuntu-M");
+}
+h1 {
+  font-family: "unbuntu-bold", Verdana, serif;
+  font-size: 47px;
+  color: #000000;
+}
+h2 {
+  font-family: "unbuntu-medium", Verdana, serif;
+  font-size: 27px;
+  color: #ffffff;
+}
+h3 {
+  font-family: "unbuntu-bold", Verdana, serif;
+  font-size: 25px;
+  color: #4C8D17;
+}
+p {
+  font-family: "unbuntu-regular", verdana, serif;
+  font-size: 15px;
+  color: #000005;
+}

@@ -1,0 +1,33 @@
+@keyframes slideleft {
+  from {
+    margin-left: 1500px;
+  }
+  to {
+    margin-left: 2em;
+  }
+}
+
+@keyframes slideright {
+  from {
+    margin-left: -1500px;
+  }
+  to {
+    margin-left: 30em;
+  }
+}
+
+.expertise {
+  &__content {
+    /*
+    animation-duration: 5s;
+    */
+  }
+  &__slideleft {
+    /*animation-name: slideleft;*/
+    margin: 0 0 0 400px;
+  }
+  &__slideright {
+    /*animation-name: slideright;*/
+    margin: 0 0 0 900px;
+  }
+}

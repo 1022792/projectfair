@@ -1,0 +1,62 @@
+@keyframes borders {
+  0% {
+    border: none;
+  }
+  25% {
+    border-right: 3px solid #000;
+  }
+  50% {
+    border-right: 3px solid #000;
+    border-bottom: 3px solid #000;
+  }
+  75% {
+    border-right: 3px solid #000;
+    border-bottom: 3px solid #000;
+    border-left: 3px solid #000;
+  }
+  100% {
+    border: 3px solid #000;
+  }
+}
+
+.section {
+  padding: 2em;
+}
+
+.purpose {
+  margin: 6%;
+  top: 20px;
+}
+
+.purpose__block {
+  display: inline-block;
+  background-color: #F3F3F3;
+  z-index: 1;
+  font-family: unbuntu;
+}
+
+.purpose__title {
+  position: relative;
+  top: 25px;
+  color: #000005;
+  background-color: #F3F3F3;
+  width: 60%;
+  margin: 0 20%;
+  text-align: center;
+  font-size: 40px;
+}
+
+.purpose__image {
+  position: relative;
+  top: 60px;
+  left: 70px;
+  border-right: 30px solid #F3F3F3;
+  border-bottom: 40px solid #F3F3F3;
+  z-index: 2;
+}
+
+.purpose__text {
+  height: 145px;
+  width: 500px;
+  padding: 5em;
+}
