@@ -10,7 +10,7 @@
   height: 100px;
   background-color: $navcolor;
   margin: -22px 0 0 0;
-  position: fixed;
+  position: absolute;
   transform: skewY(-1deg);
 
   .navigation__img{
