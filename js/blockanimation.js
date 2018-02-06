@@ -11,9 +11,8 @@ function handle() {
     if (scrollHeight > expertiseHeight) {
         if (deb === false) {
             deb = true;
-            console.log("BIEM");
             animation();
-        } else console.log("is false");
+        }
     }
 }
 
