@@ -1,7 +1,7 @@
 {
   "name": "sass",
   "version": "1.0.0",
-  "description": "project teamapple",
+  "description": "",
   "main": "Gruntfile.js",
   "dependencies": {
     "grunt": "^1.0.1"
@@ -17,16 +17,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "directories": {
-    "doc": "docs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/1022792/projectfair.git"
-  },
-  "bugs": {
-    "url": "https://github.com/1022792/projectfair/issues"
-  },
-  "homepage": "https://github.com/1022792/projectfair#readme"
+  "license": "ISC"
 }
