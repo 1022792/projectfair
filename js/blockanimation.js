@@ -5,7 +5,7 @@ document.addEventListener('scroll', handle);
 function handle() {
 
     var scroll = window.scrollY;
-    var expertiseHeight = document.querySelector('.expertise').offsetTop;
+    var aboutHeight = document.querySelector('.about').offsetTop;
     var purposeHeight = document.querySelector('.purpose').offsetTop;
     var servicesHeight = document.querySelector('.services').offsetTop;
 
@@ -15,7 +15,7 @@ function handle() {
             draw();
         }
     }
-    if (scroll > expertiseHeight && scroll < servicesHeight) {
+    if (scroll > aboutHeight && scroll < servicesHeight) {
         if (deb === false) {
             console.log('deb is now true, activating animation');
             deb = true;
