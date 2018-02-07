@@ -17,7 +17,7 @@
 }
 
 .heading2{
-  font-family: $font-bold;
+  font-family: "unbuntu-bold", Verdana, serif;
   font-size: 50px;
   text-align: center;
   color: $black;
@@ -25,4 +25,9 @@
   .heading2__white{
     color: $white;
   }
+}
+
+.paragrah{
+  font-family: "unbuntu-medium", Verdana, serif;
+  color: $black;
 }
