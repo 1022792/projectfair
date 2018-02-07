@@ -6,12 +6,12 @@
 //normalize
 @import "sass/vendor/_normalize.scss";
 
+//modules
+@import "sass/modules/_var.scss";
+
 //base
 @import "sass/base/scrollfix";
 @import "sass/base/typography";
-
-//modules
-@import "sass/modules/_var.scss";
 
 //partials
 @import "sass/partials/nav.scss";

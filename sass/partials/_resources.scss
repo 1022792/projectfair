@@ -13,7 +13,7 @@
 .grid-item1 {
   height: 280px;
   width:320px;
-  color:#fff;
+  color: $white;
   padding: 20px;
   margin: 0 20px 20px 0;
   font-size: 30px;
@@ -28,7 +28,7 @@
   background: url('../img/resources__box2.png') 100% ;
   height: 280px;
   width:320px;
-  color:#fff;
+  color: $white;
   padding: 20px;
   margin: 0 20px 40px 0;
   font-size: 30px;
@@ -37,11 +37,6 @@
 .grid-item2:hover {
   opacity: 0.3;
   filter: alpha(opacify=30);
-}
-.heading2 {
-  font-size: 30px;
-  color: #4C8D17;
-  margin: 50px;
 }
 
 .resources__intro {
@@ -57,9 +52,9 @@
 }
 
 .filter__box {
-  background-color: #ddd;
-  color: #4C8D17;
-  font-family: Arial;
+  background-color: $white;
+  color: $green;
+  font-family: $font;
   margin: 50px 10px;
   padding-top: 10px;
   height: 50%;
@@ -80,7 +75,7 @@
 }
 
 .filter__search::placeholder {
-  color: #4C8D17;
+  color: $green;
 }
 
 .resources__block {
@@ -100,7 +95,7 @@
 
 .resources__box {
   display: inline-block;
-  background-color: #4C8D17;
+  background-color: $green;
   background: url('../img/resources__box.png') 100% ;
   height: 280px;
   width:320px;
@@ -123,14 +118,14 @@
   text-align: center;
   margin: 10% 0 0 0;
   font-size: 35px;
-  text-shadow: 0 0 10px #060606;
-  color: #FFFFFF;
+  text-shadow: 0 0 10px $black;
+  color: $white;
 }
 
 .showmore {
   float: right;
-  color: #FFFFFF;
-  background-color: #4B8813;
+  color: $white;
+  background-color: $green;
   height: 60px;
   width: 200px;
   margin: 0 4.1% 0 0;

@@ -15,23 +15,9 @@
   font-family: fontawesome;
   src: url("../fonts/fontawesome.ttf");
 }
-h1 {
-  font-family: "unbuntu-bold", Verdana, serif;
-  font-size: 47px;
-  color: #000000;
-}
-h2 {
-  font-family: ubuntu;
+
+.heading2{
+  font-family: $font-bold;
   font-size: 50px;
-  color: #ffffff;
-}
-h3 {
-  font-family: "unbuntu-bold", Verdana, serif;
-  font-size: 25px;
-  color: #4C8D17;
-}
-p {
-  font-family: ubuntu;
-  font-size:27px;
-  color: #000005;
+  color: $black;
 }
