@@ -32,10 +32,10 @@
   margin: 0 20px 40px 0;
   font-size: 30px;
   text-align: center;
-}
-.grid-item2:hover {
-  opacity: 0.3;
-  filter: alpha(opacify=30);
+  &:hover {
+    opacity: 0.3;
+    filter: alpha(opacify=30);
+  }
 }
 .heading2 {
   font-size: 30px;
