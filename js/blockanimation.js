@@ -1,13 +1,22 @@
 var deb = false;
-
+var debline = false;
 document.addEventListener('scroll', handle);
 
 function handle() {
 
     var scrollHeight = window.scrollY;
     var expertiseHeight = document.querySelector('.expertise').scrollHeight;
+    var purposeHeight = document.querySelector('.purpose').scrollHeight;
     var servicesHeight = document.querySelector('.services').scrollHeight;
 
+    console.log('scroll: ' + scrollHeight);
+    console.log('purpose: ' + purposeHeight);
+    if (scrollHeight > purposeHeight) {
+        if (debline === false) {
+            debline = true;
+            draw();
+        }
+    }
     if (scrollHeight > expertiseHeight) {
         if (deb === false) {
             deb = true;
@@ -32,4 +41,6 @@ function animation() {
     }
 }
 
-
+function draw() {
+    document.querySelector('.purpose__text').style.animation = "borders 3s ease 1 forwards";
+}
