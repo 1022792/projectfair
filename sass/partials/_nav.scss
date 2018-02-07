@@ -8,7 +8,7 @@
 .navigation {
   width: 100%;
   height: 100px;
-  position: absolute;
+  position: fixed;
   z-index: 99;
   background-color: $navcolor;
   margin: -22px 0 0 0;
@@ -16,7 +16,12 @@
 
   .navigation__img{
     height: 100px;
+    position: relative;
     padding: 0 0 0 40px;
+    z-index: 98;
+    &:hover{
+      cursor: pointer;
+    }
   }
 
 }
@@ -36,9 +41,11 @@
       text-decoration: none;
       font-size: 20px;
       color: black;
+      text-transform: uppercase;
       &:hover{
         color: #4b8813;
         text-decoration: underline;
+        cursor: pointer;
       }
     }
 
