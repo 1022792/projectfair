@@ -4,23 +4,28 @@ document.addEventListener('scroll', handle);
 
 function handle() {
 
-    var scrollHeight = window.scrollY;
-    var expertiseHeight = document.querySelector('.expertise').scrollHeight;
-    var purposeHeight = document.querySelector('.purpose').scrollHeight;
-    var servicesHeight = document.querySelector('.services').scrollHeight;
+    var scroll = window.scrollY;
+    var expertiseHeight = document.querySelector('.expertise').offsetTop;
+    var purposeHeight = document.querySelector('.purpose').offsetTop;
+    var servicesHeight = document.querySelector('.services').offsetTop;
 
-    console.log('scroll: ' + scrollHeight);
-    console.log('purpose: ' + purposeHeight);
-    if (scrollHeight > purposeHeight) {
+    if (scroll > purposeHeight) {
         if (debline === false) {
-            debline = true;
+            debline = true; //animation for line
             draw();
         }
     }
-    if (scrollHeight > expertiseHeight) {
+    if (scroll > expertiseHeight && scroll < servicesHeight) {
         if (deb === false) {
+            console.log('deb is now true, activating animation');
             deb = true;
             animation();
+        }
+    } else {
+        if (deb === true) {
+            console.log('deb is now false, removing animation');
+            deb = false;
+            clear();
         }
     }
 }
@@ -30,14 +35,27 @@ function animation() {
     var blocksright = document.querySelectorAll('.expertise__block--right');
     var blockscontent = document.querySelectorAll('.expertise__block');
 
-    for (var i = 0; i < blockscontent.length; i++) {
-        blockscontent[i].style.animationDuration = "5s";
-    }
     for (var k = 0; k < blocksleft.length; k++) {
+        blocksleft[k].style.animationDuration = "5s";
         blocksleft[k].style.animationName = "slideleft";
     }
     for (var l = 0; l < blocksright.length; l++) {
+        blocksright[l].style.animationDuration = "5s";
         blocksright[l].style.animationName = "slideright";
+    }
+}
+
+function clear() {
+    var blocksleft = document.querySelectorAll('.expertise__block--left');
+    var blocksright = document.querySelectorAll('.expertise__block--right');
+
+    for (var k = 0; k < blocksleft.length; k++) {
+        blocksleft[k].style.animationName = "";
+        blocksleft[k].style.animationDuration = "";
+    }
+    for (var l = 0; l < blocksright.length; l++) {
+        blocksright[l].style.animationName = "";
+        blocksright[l].style.animationDuration = "";
     }
 }
 
