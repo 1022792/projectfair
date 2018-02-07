@@ -1,16 +1,3 @@
-var blocks = document.getElementsByClassName('resources__content');
-console.log(blocks.length);
-    if (blocks.length >= 6){
-        for(var x = 6; x < blocks.length; x++){
-            blocks[x].style="display:none;";
-        }
-    }
-
-function more() {
-    for (var z = 6; z < blocks.length; z++){
-        blocks[z].style="";
-    }
-}
 var deb = false;
 var debline = false;
 document.addEventListener('scroll', handle);
@@ -58,6 +45,25 @@ function draw() {
     document.querySelector('.purpose__text').style.animation = "borders 3s ease 1 forwards";
 }
 
+
+var listItems = document.querySelectorAll('.goTo');
+
+for (var i = 0; i < listItems.length; i++) {
+
+    listItems[i].addEventListener('click', jumpToSection);
+}
+
+function jumpToSection() {
+
+    if(this.dataset.scroll === "top"){
+        window.scrollTo({behavior : "smooth", top : 0 });
+    }
+    else{
+        var className = '.'+ this.dataset.scroll;
+
+        document.querySelector(className).scrollIntoView({behavior: "smooth"});
+    }
+}
 window.onload=function(){
     document.getElementById("button").addEventListener("click", showBoxes);
 };
