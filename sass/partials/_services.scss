@@ -1,11 +1,11 @@
 body {
-  background-color: #F3F3F3;
   font-family: 'unbuntu';
 }
 .services {
   margin-left: 20em;
   width: 63%;
-
+  background-color: #F3F3F3;
+  clip-path: polygon(0% 5%, 100% 0%, 100% 96%, 0 100%);
 }
 .heading2 {
   text-align: center;
