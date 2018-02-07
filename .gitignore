@@ -3,5 +3,3 @@
 package-lock.json
 .sass-cache/*
 css/main.min.map
-css/main.css
-main.min.js

@@ -2,10 +2,10 @@ body {
   font-family: 'unbuntu';
 }
 .services {
+  margin-left: 20em;
+  width: 63%;
   background-color: #F3F3F3;
   clip-path: polygon(0% 5%, 100% 0%, 100% 96%, 0 100%);
-  position: relative;
-  top: -4em;
 }
 .heading2 {
   text-align: center;
@@ -14,12 +14,10 @@ body {
 }
 
 .services__box {
+  width: 63%;
   text-align: left;
+  margin: 30px 300px;
   font-size: 20px;
-  margin-left: 20em;
-  margin-right: auto;
-  width: 50%;
-  padding: 1em;
 
 
   .box__title {
@@ -37,6 +35,5 @@ body {
 
 .services__img {
   float: left;
-  margin-left: -10em;
-  padding-top: 1em;
+  margin: 0 0 0 7em;
 }
