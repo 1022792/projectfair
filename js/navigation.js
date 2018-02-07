@@ -1,5 +1,5 @@
-var listItems = document.querySelectorAll('.menu__link');
-console.log(listItems.length);
+
+var listItems = document.querySelectorAll('.goTo');
 
 for (var i = 0; i < listItems.length; i++) {
 
@@ -8,8 +8,12 @@ for (var i = 0; i < listItems.length; i++) {
 
 function jumpToSection() {
 
-    var className = '.'+ this.dataset.test;
+    if(this.dataset.scroll === "top"){
+        window.scrollTo({behavior : "smooth", top : 0 });
+    }
+    else{
+        var className = '.'+ this.dataset.scroll;
 
-    document.querySelector(className).scrollIntoView({behavior: "smooth"});
-
+        document.querySelector(className).scrollIntoView({behavior: "smooth"});
+    }
 }
