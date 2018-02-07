@@ -6,19 +6,16 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
-<header class="header intro"></header>
-<nav class="navigation">
-    <a href=""><img class="navigation__img" src="img/apple_logo.png" alt=""></a>
-    <ul class="menu">
-        <li class="menu__li"><a class="menu__link" href="#">contact</a></li>
-        <li class="menu__li"><a class="menu__link" href="#">links/resources</a></li>
-        <li class="menu__li"><a class="menu__link" href="#">services</a></li>
-        <li class="menu__li"><a class="menu__link" href="#">expertise</a></li>
-        <li class="menu__li"><a class="menu__link" href="#">about</a></li>
-    </ul>
-</nav>
-
+    <nav class="navigation">
+        <a href=""><img class="navigation__img" id="top" src="img/apple_logo.png" alt=""></a>
+        <ul class="menu">
+            <li class="menu__li"><a class="menu__link" data-test="contact">contact</a></li>
+            <li class="menu__li"><a class="menu__link" data-test="resources">links/resources</a></li>
+            <li class="menu__li"><a class="menu__link" data-test="services">services</a></li>
+            <li class="menu__li"><a class="menu__link" data-test="expertises">expertise</a></li>
+            <li class="menu__li"><a class="menu__link" data-test="about">about</a></li>
+        </ul>
+    </nav>
 <header class="header intro">
     <div class="intro__container">
         <p class="intro__text">
@@ -39,7 +36,7 @@
             Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
     </div>
 </section>
-<section class="section about">
+<section class="section about" id="about">
     <h2 class="about__heading2">WHAT WE DO</h2>
     <article class="about__information">
         <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue
@@ -52,6 +49,7 @@
         </p>
     </article>
 </section>
+
 <section class="section expertise">
     <h2 class="expertise__heading">EXPERTISE</h2>
     <div class="expertise__block expertise__block--left">
