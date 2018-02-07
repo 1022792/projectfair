@@ -7,13 +7,13 @@
 </head>
 <body>
     <nav class="navigation">
-        <img class="navigation__img" onclick="toTop()" id="top" src="img/apple_logo.png" alt="">
+        <img class="navigation__img goTo" data-scroll="top" src="img/apple_logo.png">
         <ul class="menu">
-            <li class="menu__li"><a class="menu__link" data-test="contact">contact</a></li>
-            <li class="menu__li"><a class="menu__link" data-test="resources">links/resources</a></li>
-            <li class="menu__li"><a class="menu__link" data-test="services">services</a></li>
-            <li class="menu__li"><a class="menu__link" data-test="expertise">expertise</a></li>
-            <li class="menu__li"><a class="menu__link" data-test="about">about</a></li>
+            <li class="menu__li"><a class="menu__link goTo" data-scroll="contact">contact</a></li>
+            <li class="menu__li"><a class="menu__link goTo" data-scroll="resources">links/resources</a></li>
+            <li class="menu__li"><a class="menu__link goTo" data-scroll="services">services</a></li>
+            <li class="menu__li"><a class="menu__link goTo" data-scroll="expertise">expertise</a></li>
+            <li class="menu__li"><a class="menu__link goTo" data-scroll="about">about</a></li>
         </ul>
     </nav>
 <header class="header intro">
@@ -177,8 +177,8 @@
         </div>
         <button class="showmore" id="button">Show more</button>
     </div>
-</section>
-<section class="section contact">
+    </section>
+    <section class="section contact">
     <h2 class="contact__heading2">GET IN TOUCH WITH US!</h2>
     <form class="contact__form">
         <p class="contact__header">SEND US A MESSAGE</p>
