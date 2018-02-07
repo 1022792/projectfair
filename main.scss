@@ -1,12 +1,30 @@
 //normalize
 @import "sass/vendor/_normalize.scss";
 
-//base
-@import "sass/base/scrollfix";
-@import "sass/base/typography";
+@font-face {
+  font-family: ubuntu;
+  src: url("../fonts/Ubuntu-C.ttf");
+}
+@font-face {
+  font-family: unbuntu-bold;
+  src: url("../fonts/Ubuntu-B.ttf");
+}
+@font-face {
+  font-family: unbuntu-medium;
+  src: url("../fonts/Ubuntu-M");
+}
+
+@font-face {
+  font-family: fontawesome;
+  src: url("../fonts/fontawesome.ttf");
+}
 
 //modules
 @import "sass/modules/_var.scss";
+
+//base
+@import "sass/base/scrollfix";
+@import "sass/base/typography";
 
 //partials
 @import "sass/partials/nav.scss";

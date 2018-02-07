@@ -1,16 +1,11 @@
 body {
-  font-family: 'unbuntu';
+  font-family: $font;
 }
 .services {
-  background-color: #F3F3F3;
+  background-color: $grey;
   clip-path: polygon(0% 5%, 100% 0%, 100% 96%, 0 100%);
   position: relative;
   top: -4em;
-}
-.heading2 {
-  text-align: center;
-  font-size: 27px;
-  color: #000005;
 }
 
 .services__box {
@@ -21,22 +16,21 @@ body {
   width: 50%;
   padding: 1em;
 
-
   .box__title {
-    color: #4C8D17;
+    color: $green;
     font-weight: bold;
     padding-bottom: 1em;
     position: relative;
     right: 20px;
   }
-  .box__text{
+  .box__text {
     position: relative;
     right: 20px;
   }
-}
-/*image algin left*/
-.services__img {
-  float: left;
-  margin-left: -10em;
-  padding-top: 1em;
+
+  /*image algin left*/
+  .services__img {
+    float: left;
+    margin-left: -10em;
+  }
 }
