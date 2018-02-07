@@ -30,7 +30,7 @@
 
 .purpose__block {
   display: inline-block;
-  background-color: #fff;
+  background-color: #FFFFFF;
   z-index: 1;
   font-family: unbuntu;
 }
@@ -39,7 +39,7 @@
   position: relative;
   top: 25px;
   color: #000005;
-  background-color: #fff;
+  background-color: #FFFFFF;
   width: 60%;
   margin: 0 20%;
   text-align: center;
@@ -50,8 +50,8 @@
   position: relative;
   top: 60px;
   left: 70px;
-  border-right: 30px solid #ffffff;
-  border-bottom: 40px solid #ffffff;
+  border-right: 30px solid #FFFFFF;
+  border-bottom: 40px solid #FFFFFF;
   z-index: 2;
 }
 
@@ -59,11 +59,4 @@
   height: 145px;
   width: 500px;
   padding: 5em;
-  &:hover {
-    animation: borders 2s ease 1 forwards;
-  }
-  /*
-  border: 3px solid;
-  TODO: make drawing animation compatible with javascript scroll event
-  */
 }
