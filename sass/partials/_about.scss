@@ -1,6 +1,6 @@
 .about {
-  background-color: #4B8813;
-  color: #fff;
+  background-color: $green;
+  color: $white;
   text-align: center;
   padding: 8em 3em;
   clip-path: polygon(0 0, 100% 8%, 100% 90%, 0 100%);
@@ -11,7 +11,7 @@
 .about__paragraph {
   width: 80%;
   padding: 0 10%;
-  color: #ffffff;
+  color: $white;
 }
 
 body{
@@ -21,7 +21,7 @@ body{
 
 .about__heading2{
   font-weight: bold;
-  color:#fff;
+  color: $white;
   margin: 0 0 20px 0;
 }
 
