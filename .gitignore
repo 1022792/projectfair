@@ -4,3 +4,4 @@ package-lock.json
 .sass-cache/*
 css/main.min.map
 css/main.css
+css/main.css.map

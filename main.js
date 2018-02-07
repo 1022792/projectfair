@@ -45,8 +45,13 @@ function draw() {
     document.querySelector('.purpose__text').style.animation = "borders 3s ease 1 forwards";
 }
 
+<<<<<<<<< Temporary merge branch 1
+var listItems = document.querySelectorAll('.menu__link');
+console.log(listItems.length);
+=========
 
 var listItems = document.querySelectorAll('.goTo');
+>>>>>>>>> Temporary merge branch 2
 
 for (var i = 0; i < listItems.length; i++) {
 
@@ -55,6 +60,14 @@ for (var i = 0; i < listItems.length; i++) {
 
 function jumpToSection() {
 
+<<<<<<<<< Temporary merge branch 1
+
+    var className = '.'+ this.dataset.test;
+
+    console.log('.section ' + className);
+    document.querySelector(className).scrollIntoView({behavior: "smooth"});
+
+=========
     if(this.dataset.scroll === "top"){
         window.scrollTo({behavior : "smooth", top : 0 });
     }
@@ -63,6 +76,7 @@ function jumpToSection() {
 
         document.querySelector(className).scrollIntoView({behavior: "smooth"});
     }
+>>>>>>>>> Temporary merge branch 2
 }
 window.onload=function(){
     document.getElementById("button").addEventListener("click", showBoxes);
