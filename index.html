@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header class="header intro"></header>
     <nav class="navigation">
         <a href=""><img class="navigation__img" id="top" src="img/apple_logo.png" alt=""></a>
         <ul class="menu">
@@ -17,16 +16,15 @@
             <li class="menu__li"><a class="menu__link" data-test="about">about</a></li>
         </ul>
     </nav>
-
-    <header class="header intro">
-        <div class="intro__container">
-            <p class="intro__text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            </p>
-        </div>
-    </header>
+<header class="header intro">
+    <div class="intro__container">
+        <p class="intro__text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+        </p>
+    </div>
+</header>
 
 <section class="section purpose">
     <img class="purpose__image" src="img/purpose.jpg">
@@ -51,13 +49,45 @@
         </p>
     </article>
 </section>
-<section class="section expertise" id="expertise"></section>
-<section class="section services" id="services">
 
+<section class="section expertise">
+    <h2 class="expertise__heading">EXPERTISE</h2>
+    <div class="expertise__block expertise__block--left">
+        <h3 class="expertise__title expertise__title--left">Lorem ipsum dolor sit amet</h3>
+        <p class="expertise__text expertise__text--left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue
+            massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna
+            eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra
+            nonummy pede. Mauris et orci. Aenean nec lorem.</p>
+    </div>
+    <div class="expertise__block expertise__block--right">
+        <h3 class="expertise__title expertise__title--right">Lorem ipsum dolor sit amet</h3>
+        <p class="expertise__text expertise__text--right">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue
+            massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna
+            eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra
+            nonummy pede. Mauris et orci. Aenean nec lorem.</p>
+    </div>
+    <div class="expertise__block expertise__block--left">
+        <h3 class="expertise__title expertise__title--left">Lorem ipsum dolor sit amet</h3>
+        <p class="expertise__text expertise__text--left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue
+            massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna
+            eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra
+            nonummy pede. Mauris et orci. Aenean nec lorem.</p>
+    </div>
+    <div class="expertise__block expertise__block--right">
+        <h3 class="expertise__title expertise__title--right">Lorem ipsum dolor sit amet</h3>
+        <p class="expertise__text expertise__text--right">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue
+            massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna
+            eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra
+            nonummy pede. Mauris et orci. Aenean nec lorem.</p>
+    </div>
+</section>
+<section class="section services">
     <h2 class="heading2">Consulting Services</h2>
-
-    <img class="services__img" src="img/consulting_business.jpg">
-
+    <img class="services__img bussines__img" src="img/consulting_business.jpg">
     <div class="services__box">
         <div class="box__title">Business and industry</div>
         <div class="box__text">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
@@ -67,7 +97,7 @@
         </div>
     </div>
 
-    <img class="services__img" src="img/consulting_government.jpg">
+    <img class="services__img government__img" src="img/consulting_government.jpg">
 
     <div class="services__box">
         <div class="box__title">Government</div>
@@ -77,9 +107,7 @@
             Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
         </div>
     </div>
-
-    <img class="services__img" src="img/consulting_education.jpg">
-
+    <img class="services__img education__img" src="img/consulting_education.jpg">
     <div class="services__box">
         <div class="box__title">Education</div>
         <div class="box__text">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
@@ -88,10 +116,8 @@
             Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
         </div>
     </div>
-
 </section>
-
-<section class="section resources" id="resources">
+<section class="section resources">
     <div class="resources__block">
         <h2 class="heading2">LINKS AND RESOURCES</h2>
         <div class="resources__intro">
@@ -106,47 +132,65 @@
             <input class="filter__search" type="text" name="search" placeholder="Search">
         </div>
         <a href="#"><div class="resources__box">
-            <p class="resources__text">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
+            <div class="resources__overlay">
+                <p class="resources__text">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
+            </div>
         </div></a>
         <a href="#"><div class="resources__box2">
-            <p class="resources__text">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
+            <div class="resources__overlay">
+                <p class="resources__text">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
+            </div>
         </div></a>
         <a href="#"><div class="resources__box">
-            <p class="resources__text">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
+            <div class="resources__overlay">
+                <p class="resources__text">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
+            </div>
         </div></a>
         <a href="#"><div class="resources__box2">
-            <p class="resources__text">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
+            <div class="resources__overlay">
+                <p class="resources__text">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
+            </div>
         </div></a>
         <a href="#"><div class="resources__box">
-            <p class="resources__text">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
+            <div class="resources__overlay">
+                <p class="resources__text">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
+            </div>
         </div></a>
         <a href="#"><div class="resources__box2">
-            <p class="resources__text">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
+            <div class="resources__overlay">
+                <p class="resources__text">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
+            </div>
         </div></a>
         <a href="#"><div class="resources__box hidden">
-            <p class="resources__text">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
+            <div class="resources__overlay">
+                <p class="resources__text">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
+            </div>
         </div></a>
         <a href="#"><div class="resources__box2 hidden">
-            <p class="resources__text">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
+            <div class="resources__overlay">
+                <p class="resources__text">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
+            </div>
         </div></a>
         <a href="#"><div class="resources__box hidden">
-            <p class="resources__text">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
+            <div class="resources__overlay">
+                <p class="resources__text">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.</p>
+            </div>
         </div></a>
         <button class="showmore" id="button">Show more</button>
     </div>
 </section>
-
-<section class="section contact" id="contact">
+<section class="section contact">
     <h2 class="contact__heading2">GET IN TOUCH WITH US!</h2>
     <form class="contact__form">
+        <p class="contact__header">SEND US A MESSAGE</p>
         <input class="contact__input" id="contactName" type="text" placeholder="Type your name here">
         <input class="contact__input" id="contactEmail" type="email" placeholder="Type your email addresss here">
         <textarea class="contact__textarea" placeholder="What is it you want to have contact about?"></textarea>
         <button class="contact__submit" onclick="verify()" id="submitContactform">Send</button>
     </form>
     <div class="contact__address">
-        <h3>CONTACT INFO</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="contact__header">CONTACT INFO</p>
+        <p class="contact__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <img class="contact__icons" src="img/contact_location.jpg">
         <p class="contact__info">Address city</p>
         <img class="contact__icons" src="img/contact_phone.jpg">
@@ -156,12 +200,17 @@
     </div>
 </section>
 <footer class="footer">
-    <span class="footer__copyrighttext">copyright</span>
-    <span class="footer__copyrighttext--green">FAIRSOURCE</span>
-    <span class="footer__copyrighttext">2018</span>
-    <img class="footer__icon" src="img/social_facebook.jpg">
-    <img class="footer__icon" src="img/social_instagram.jpg">
-    <img class="footer__icon" src="img/social_twitter.jpg">
+    <div class="footer__leftcolumn">
+        <p class="footer__copyrighttext">copyright
+            <span class="footer__copyrighttext--green">FAIRSOURCE</span>
+            2018
+        </p>
+    </div>
+    <div class="footer__rightcolumn">
+        <img class="footer__icon" src="img/social_facebook.jpg">
+        <img class="footer__icon" src="img/social_instagram.jpg">
+        <img class="footer__icon" src="img/social_twitter.jpg">
+    </div>
 </footer>
 <script src="main.min.js"></script>
 <script src="js/resources.js" type="text/javascript"></script>

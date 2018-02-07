@@ -8,7 +8,7 @@
   color: #ffffff;
 }
 .contact__input {
-  width: 25%;
+  width: 35%;
   height: 2em;
   background-color: #4B8813;
   border: 2px solid #F3F3F3;
@@ -21,11 +21,11 @@
 .contact__textarea {
   display: inherit;
   height: 15em;
-  width: 46em;
+  width: 76%;
   resize: none;
   background-color: #4B8813;
   border: 2px solid #F3F3F3;
-  margin: 2em;
+  margin: 18.6px;
 }
 .contact__textarea::placeholder {
   color: #ffffff;
@@ -42,15 +42,38 @@
   font-weight: bold;
 }
 .contact__address {
+  font-size: 15px;
+  height: auto;
+  width: 40%;
   float: right;
   z-index: 1;
-  bottom: 28em;
-  position: relative;
+  margin: -414px auto;
 }
 .contact__info {
   padding: 1em;
+  color: #F3F3F3;
+  margin-top: 20px;
+  margin-left: -12px;
 }
 .contact__icons {
   float: left;
   padding-right: 2em;
+  margin: 12px auto;
+}
+
+.contact__form {
+  width: 55%;
+  margin-top: 30px;
+}
+
+.contact__header {
+  font-family: Arial;
+  font-size: 30px;
+  color: #F3F3F3;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.contact__p {
+  color: #F3F3F3;
 }
