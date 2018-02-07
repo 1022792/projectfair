@@ -12,6 +12,6 @@ function jumpToSection() {
     var className = '.'+ this.dataset.test;
 
     console.log('.section ' + className);
-    document.querySelector(className).scrollIntoView({behavior: "auto"});
+    document.querySelector(className).scrollIntoView({behavior: "smooth"});
 
 }
