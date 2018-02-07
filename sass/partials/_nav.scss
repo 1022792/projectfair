@@ -1,3 +1,10 @@
+@font-face {
+  font-family: ubuntu;
+  src: url("../fonts/Ubuntu-C.ttf");
+}
+*{
+  margin: 0;
+}
 .navigation {
   width: 100%;
   height: 100px;
@@ -33,10 +40,10 @@
     .menu__link{
       text-decoration: none;
       font-size: 20px;
-      color: $black;
+      color: black;
       text-transform: uppercase;
       &:hover{
-        color: $green;
+        color: #4b8813;
         text-decoration: underline;
         cursor: pointer;
       }

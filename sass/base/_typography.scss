@@ -1,5 +1,5 @@
 @font-face {
-  font-family: ubuntu;
+  font-family: unbuntu;
   src: url("../fonts/Ubuntu-C.ttf");
 }
 @font-face {
@@ -15,19 +15,23 @@
   font-family: fontawesome;
   src: url("../fonts/fontawesome.ttf");
 }
-
-.heading2{
+h1 {
   font-family: "unbuntu-bold", Verdana, serif;
-  font-size: 50px;
-  text-align: center;
-  color: $black;
-
-  .heading2__white{
-    color: $white;
-  }
+  font-size: 47px;
+  color: #000000;
 }
-
-.paragrah{
-  font-family: "unbuntu-medium", Verdana, serif;
-  color: $black;
+h2 {
+  font-family: ubuntu;
+  font-size: 50px;
+  color: #ffffff;
+}
+h3 {
+  font-family: "unbuntu-bold", Verdana, serif;
+  font-size: 25px;
+  color: #4C8D17;
+}
+p {
+  font-family: ubuntu;
+  font-size:27px;
+  color: #000005;
 }

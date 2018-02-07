@@ -1,30 +1,28 @@
 .expertise {
   background-image: url("../img/background.jpg");
   padding: 5em;
-
+}
+.expertise__heading {
+  text-align: center;
+  color: #000005;
 }
 .expertise__title {
   padding: 1em;
-  font-family: $font;
-  color: $green;
 }
 .expertise__title--right {
-  margin-left: $margin3em;
+  margin-left: 3em;
   text-align: right;
 }
 .expertise__text--right {
-  margin-left: $margin3em;
+  margin-left: 3em;
   text-align: right;
 }
 .expertise__title--left {
-  margin-right: $margin3em;
-  text-align: left;
+  margin-right: 3em;
 }
 .expertise__text--left {
-  margin-right: $margin3em;
-  text-align: left;
+  margin-right: 3em;
 }
-
 .expertise__block {
   width: 60%;
   height: 30%;
@@ -37,5 +35,7 @@
 }
 .expertise__block--right {
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 6% 100%);
-  margin: 2em 0 2em 30em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 30em;
 }
