@@ -8,10 +8,8 @@ for (var i = 0; i < listItems.length; i++) {
 
 function jumpToSection() {
 
-
     var className = '.'+ this.dataset.test;
 
-    console.log('.section ' + className);
     document.querySelector(className).scrollIntoView({behavior: "smooth"});
 
 }

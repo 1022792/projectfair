@@ -8,7 +8,7 @@
 .navigation {
   width: 100%;
   height: 100px;
-  position: absolute;
+  position: fixed;
   z-index: 99;
   background-color: $navcolor;
   margin: -22px 0 0 0;
