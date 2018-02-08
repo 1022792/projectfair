@@ -5,3 +5,5 @@ package-lock.json
 css/main.min.map
 css/main.css
 css/main.css.map
+main.js
+main.min.js
