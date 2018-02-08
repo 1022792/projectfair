@@ -1,5 +1,9 @@
 window.onload=function(){
     document.getElementById("button").addEventListener("click", showBoxes);
+    var hiddenBoxes = document.getElementsByClassName("hidden");
+    for (var i = 0; i < hiddenBoxes.length; i++){
+        hiddenBoxes[i].style.display = 'none';
+    }
 };
 
 function showBoxes() {
