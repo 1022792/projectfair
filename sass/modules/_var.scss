@@ -1,1 +1,12 @@
 $navcolor : rgba(243,243,243,0.8);
+
+$white: #ffffff;
+$black: #000000;
+$green: #4b8813;
+
+@font-face {
+  font-family: ubuntu;
+  src: url("../fonts/Ubuntu-C.ttf");
+}
+
+$unbuntu: 'font-family: unbuntu';
