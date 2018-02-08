@@ -5,14 +5,14 @@
 
 .expertise__heading {
   text-align: center;
-  color: #000005;
+  color: $Dark-plain;
   font-family: $defaultHeaderFont;
   padding: 30px 0;
   font-size: $defaultHeaderSize;
 }
 
 .expertise__title {
-  color: $green;
+  color: $Shadow-green;
   font-size: 30px;
 }
 
@@ -42,7 +42,7 @@
   width: 60%;
   height: 30%;
   padding: 21px 20px 30px 30px;
-  background-color: #f3f3d6;
+  background-color: $navcolor;
   margin: 2em;
 }
 
