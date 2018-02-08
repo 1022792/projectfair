@@ -5,18 +5,17 @@
   padding: 6em 0;
   clip-path: polygon(0 0, 100% 8%, 100% 90%, 0 100%);
   position: relative;
-  bottom: -3em
+  bottom: -3em;
 
 }
-
 .about__paragraph {
   width: 80%;
   padding: 0 10%;
-  color: $white;
+  color: $Snow-white;
 }
 
 .about__heading {
-  color: $white;
+  color: $Snow-white;
   margin: 0 0 40px 0;
   font-size: $defaultHeaderSize;
   font-family: $defaultHeaderFont;

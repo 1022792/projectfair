@@ -1,16 +1,16 @@
 .services {
-  background-color: $white;
+  background-color: $Soft-grey;
   clip-path: polygon(0% 5%, 100% 0%, 100% 96%, 0 100%);
   position: relative;
   top: -4em;
-  padding: 120px 0 0 0
+  padding: 120px 0 120px 0;
 }
 
 .services__title {
   text-align: center;
   font-size: $defaultHeaderSize;
   font-family: $defaultHeaderFont;
-  color: #000005;
+  color: $Font-dark;
   padding: 0 0 80px 0;
 }
 
@@ -25,7 +25,7 @@
   padding: 1em;
 
   .box__title {
-    color: #4C8D17;
+    color: $Shadow-green;
     font-size: 30px;
     padding-bottom: 10px;
     position: relative;
