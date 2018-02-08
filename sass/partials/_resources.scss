@@ -2,51 +2,59 @@
   height: auto;
   overflow: hidden;
   //background-color: #4C8D17;
-  transform: skewY(-1deg); 
-  }
-.resources__grid{
+  transform: skewY(-1deg);
+}
+
+.resources__grid {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
 }
+
 .grid-item1 {
   height: 280px;
-  width:320px;
-  color:#fff;
+  width: 320px;
+  color: #fff;
   padding: 20px;
   margin: 0 20px 20px 0;
   font-size: 30px;
   text-align: center;
-  background: url('../img/resources__box.png') 100% ;
+  background: url('../img/resources__box.png') 100%;
 }
+
 .grid-item1:hover {
   opacity: 0.3;
   filter: alpha(opacity=30);
 }
+
 .grid-item2 {
-  background: url('../img/resources__box2.png') 100% ;
+  background: url('../img/resources__box2.png') 100%;
   height: 280px;
-  width:320px;
-  color:#fff;
+  width: 320px;
+  color: #fff;
   padding: 20px;
   margin: 0 20px 40px 0;
   font-size: 30px;
   text-align: center;
 }
+
 .grid-item2:hover {
   opacity: 0.3;
   filter: alpha(opacify=30);
 }
-.heading2 {
-  font-size: 30px;
-  color: #4C8D17;
-  margin: 50px;
+
+.resources__heading {
+  font-size: $defaultHeaderSize;
+  font-family: $defaultHeaderFont;
+  color: $green;
+  text-align: center;
 }
 
-.resources__intro {
+.resources__introtext {
+  font-size: $defaultFontSize+5px;
   text-align: center;
-  font-weight: bold;
-  font-size: 20px;
+  padding: 40px 0 0 0;
+  font-family: $unbuntu;
 }
 
 .resources__filter {
@@ -70,12 +78,13 @@
 
 .filter__search {
   font-family: fontawesome;
-  margin: 52px 10px;
+  margin: 50px 10px;
   font-size: 35px;
-  height: 50%;
+  height: 58%;
   width: 30%;
   background-color: #ddd;
   float: left;
+  border: none
 }
 
 .filter__search::placeholder {
@@ -88,31 +97,32 @@
   margin: 100px auto;
   transform: skewY(1deg);
 }
-.grid__overlay{
+
+.grid__overlay {
   height: 280px;
   padding: 20px;
   margin: 0 20px 20px 0;
-  &:hover{
-    background: rgba(255,255,255,0.3);
+  &:hover {
+    background: rgba(255, 255, 255, 0.3);
   }
 }
 
 .resources__box {
   display: inline-block;
   background-color: #4C8D17;
-  background: url('../img/resources__box.png') 100% ;
+  background: url('../img/resources__box.png') 100%;
   height: 280px;
-  width:320px;
-  margin: 3%; 
-  }
+  width: 320px;
+  margin: 3%;
+}
 
 .resources__box2 {
   display: inline-block;
   background: url('../img/resources__box2.png') 100%;
   height: 280px;
-  width:320px;
-  margin: 3%; 
-  }
+  width: 320px;
+  margin: 3%;
+}
 
 .resources__text {
   text-align: center;
@@ -125,8 +135,10 @@
 .showmore {
   float: right;
   color: #FFFFFF;
-  background-color: #4B8813;
+  background-color: $green;
   height: 60px;
-  width: 200px;
-  margin: 0 4.1% 0 0;
+  font-family: $unbuntu;
+  font-size: $defaultFontSize+5px;
+  width: 250px;
+  margin: 0 5.5% 0 0;
 }
