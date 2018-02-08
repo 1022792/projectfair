@@ -43,8 +43,9 @@ module.exports = function (grunt) {
         }
     });
 
-    grunt.registerTask('default', ['sass', 'uglify']);
+    grunt.registerTask('default', ['sass', 'concat', 'uglify']);
     grunt.registerTask('sasswatch', ['sass', 'watch']);
+    grunt.registerTask('js', ['concat', 'uglify', 'watch:js']);
 
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-sass');
