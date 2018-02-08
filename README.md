@@ -1,5 +1,5 @@
 # projectfair
-project TeamApple
+project teamapple
 
 update your branch every moring
 
@@ -24,4 +24,3 @@ commit all your work to your remote branch.
 *git commit -m 'comment'
 
 *git push
-
