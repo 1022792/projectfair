@@ -1,47 +1,43 @@
-body {
-  font-family: 'unbuntu';
-}
 .services {
   background-color: #F3F3F3;
   clip-path: polygon(0% 5%, 100% 0%, 100% 96%, 0 100%);
   position: relative;
   top: -4em;
-  padding: 120px 0 0 0;
+  padding: 120px 0 0 0
 }
+
 .services__title {
   text-align: center;
   font-size: 50px;
+  font-family: "unbuntu-bold", Verdana, serif;
   color: #000005;
+  padding: 0 0 80px 0;
 }
 
-.services__text{
-  font-size: 27px;
+.services__text {
+  font-size: 22px;
 }
+
 .services__box {
-  text-align: left;
   font-size: 20px;
-  margin-left: 20em;
-  margin-right: auto;
-  width: 50%;
+  margin-left: 18em;
+  width: 60%;
   padding: 1em;
-
 
   .box__title {
     color: #4C8D17;
-    font-weight: bold;
     font-size: 30px;
-    padding-bottom: 1em;
+    padding-bottom: 10px;
     position: relative;
-    right: 20px;
+    right: -180px
   }
-  .box__text{
-    position: relative;
-    right: 20px;
+  .box__text {
+    margin: 0 0 0 180px;
   }
 }
+
 /*image algin left*/
 .services__img {
   float: left;
-  margin-left: -10em;
-  padding-top: 1em;
+  margin: 0 0 0 1em;
 }
