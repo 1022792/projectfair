@@ -1,9 +1,9 @@
 .services {
-  background-color: $white;
+  background-color: $grey;
   clip-path: polygon(0% 5%, 100% 0%, 100% 96%, 0 100%);
   position: relative;
   top: -4em;
-  padding: 120px 0 0 0
+  padding: 120px 0 120px 0;
 }
 
 .services__title {
@@ -25,7 +25,7 @@
   padding: 1em;
 
   .box__title {
-    color: #4C8D17;
+    color: $green;
     font-size: 30px;
     padding-bottom: 10px;
     position: relative;
@@ -34,10 +34,9 @@
   .box__text {
     margin: 0 0 0 180px;
   }
-}
 
-/*image algin left*/
-.services__img {
-  float: left;
-  margin: 0 0 0 1em;
+  .services__img {
+    float: left;
+    margin: 0 0 0 1em;
+  }
 }
