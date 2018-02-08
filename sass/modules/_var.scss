@@ -4,6 +4,10 @@ $white: #ffffff;
 $black: #000000;
 $green: #4b8813;
 
+$defaultFontSize: 22px;
+$defaultHeaderSize: 50px;
+$defaultHeaderFont: "unbuntu-bold";
+
 @font-face {
   font-family: ubuntu;
   src: url("../fonts/Ubuntu-C.ttf");

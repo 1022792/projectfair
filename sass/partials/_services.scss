@@ -8,14 +8,14 @@
 
 .services__title {
   text-align: center;
-  font-size: 50px;
-  font-family: "unbuntu-bold", Verdana, serif;
+  font-size: $defaultHeaderSize;
+  font-family: $defaultHeaderFont;
   color: #000005;
   padding: 0 0 80px 0;
 }
 
 .services__text {
-  font-size: 22px;
+  font-size: $defaultFontSize;
 }
 
 .services__box {
