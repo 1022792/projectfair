@@ -1,21 +1,21 @@
 .services {
-  background-color: $white;
+  background-color: $Soft-grey;
   clip-path: polygon(0% 5%, 100% 0%, 100% 96%, 0 100%);
   position: relative;
   top: -4em;
-  padding: 120px 0 0 0
+  padding: 120px 0 120px 0;
 }
 
 .services__title {
   text-align: center;
-  font-size: 50px;
-  font-family: "unbuntu-bold", Verdana, serif;
-  color: #000005;
+  font-size: $defaultHeaderSize;
+  font-family: $defaultHeaderFont;
+  color: $Font-dark;
   padding: 0 0 80px 0;
 }
 
 .services__text {
-  font-size: 22px;
+  font-size: $defaultFontSize;
 }
 
 .services__box {
@@ -25,7 +25,7 @@
   padding: 1em;
 
   .box__title {
-    color: #4C8D17;
+    color: $Shadow-green;
     font-size: 30px;
     padding-bottom: 10px;
     position: relative;
