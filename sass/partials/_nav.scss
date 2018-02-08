@@ -1,6 +1,6 @@
 .navigation {
   width: 100%;
-  height: 100px;
+  height: 120px;
   position: fixed;
   z-index: 99;
   background-color: $navcolor;
@@ -28,11 +28,12 @@
   .menu__li{
     display: inline;
     float: right;
-    padding: 0 30px 0 30px;
+    padding: 10px 40px 0 30px;
+    text-transform: uppercase;
 
     .menu__link{
       text-decoration: none;
-      font-size: 20px;
+      font-size: 17px;
       color: $black;
       &:hover{
         color: $green;
