@@ -23,4 +23,6 @@ commit all your work to your remote branch.
 
 *git commit -m 'comment'
 
+*git pull
+
 *git push
